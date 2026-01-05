@@ -1,0 +1,14 @@
+[ops]
+description = "Cloudflare Operations and Observability dashboard"
+prompt = """
+Perform an operations check based on the following request: {{args}}
+
+Available operational tools context:
+- Use `cf-observability` for application logs and analytics.
+- Use `cf-logpush` to check the health of log push jobs.
+- Use `cf-auditlogs` to review security and access changes.
+- Use `cf-dns-analytics` for DNS specific debugging.
+- Use `cf-casb` for security misconfigurations.
+
+Analyze the data returned and report any anomalies or errors found.
+"""

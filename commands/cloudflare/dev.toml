@@ -1,0 +1,13 @@
+[dev]
+description = "Cloudflare Workers development and deployment helper"
+prompt = """
+You are assisting with Cloudflare Workers development.
+User request: {{args}}
+
+Please determine which tool is best suited for this request:
+1. If it involves storage, AI binding, or compute primitives, use the `cf-workers-bindings` tools.
+2. If it involves deployment status or build logs, use the `cf-workers-builds` tools.
+3. If it requires a sandbox environment, use the `cf-containers` tools.
+
+Execute the relevant tool and provide a summary of the action taken.
+"""

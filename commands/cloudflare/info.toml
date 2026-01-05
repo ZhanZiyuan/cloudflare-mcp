@@ -1,0 +1,12 @@
+[info]
+description = "Retrieve information from Cloudflare Docs, Radar, or GraphQL"
+prompt = """
+Search for information regarding: {{args}}
+
+Strategy:
+1. If this is a question about how to use Cloudflare, search `cf-docs`.
+2. If this is about global internet traffic, trends, or URL scanning, use `cf-radar`.
+3. If specific raw data metrics are needed, construct a query using `cf-graphql`.
+
+Provide a concise answer citing the source of the information.
+"""

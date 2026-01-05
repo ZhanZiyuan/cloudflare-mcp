@@ -1,0 +1,6 @@
+{
+  "name": "cloudflare-mcp",
+  "version": "1.0.0",
+  "description": "A Gemini CLI extension for Cloudflare's MCP servers.",
+  "license": "GPLv3"
+}
