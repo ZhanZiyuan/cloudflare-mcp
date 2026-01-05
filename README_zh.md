@@ -88,15 +88,15 @@ cloudflare-mcp/
 
 - **运维监控（Logs, Analytics）**：调用`cloudflare`目录下的`ops.toml`定义的命令：
 
-```text
-/cloudflare:ops "检查过去一小时的DNS解析错误"
-```
+    ```text
+    /cloudflare:ops "检查过去一小时的DNS解析错误"
+    ```
 
 - **信息查询（Docs, Radar）**：调用`cloudflare`目录下的`info.toml`定义的命令：
 
-```text
-/cloudflare:info "如何在Cloudflare Workers中使用KV存储？"
-```
+    ```text
+    /cloudflare:info "如何在Cloudflare Workers中使用KV存储？"
+    ```
 
 AI会根据[GEMINI.md](./GEMINI.md)中的设定，自动识别你的语言偏好并以中文或英文回复。
 
