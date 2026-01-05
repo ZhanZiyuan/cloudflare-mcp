@@ -86,15 +86,15 @@ This extension registers commands under the `cloudflare` group. You invoke them 
 
 - **Operations & Monitoring (Logs, Analytics)**: invokes commands defined in `commands/cloudflare/ops.toml`:
 
-```text
-/cloudflare:ops "Check for DNS resolution errors in the last hour"
-```
+    ```text
+    /cloudflare:ops "Check for DNS resolution errors in the last hour"
+    ```
 
 - **Information Retrieval (Docs, Radar)**: invokes commands defined in `commands/cloudflare/info.toml`:
 
-```text
-/cloudflare:info "How do I use KV storage in Cloudflare Workers?"
-```
+    ```text
+    /cloudflare:info "How do I use KV storage in Cloudflare Workers?"
+    ```
 
 The AI will automatically detect your language preference and respond in English or Chinese
 based on the configuration in [GEMINI.md](./GEMINI.md).
